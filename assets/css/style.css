@@ -12,6 +12,9 @@ section{
 }
 #Home{
     padding: 0px 40px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .head{
     display: flex;
@@ -22,10 +25,10 @@ section{
     display: flex;
 }
 .title p{
-    font-size: 90px;
+    font-size: 100px;
 }
 .title h1{
-    font-size: 90px;
+    font-size: 100px;
 }
 .line{
     display: flex;
@@ -46,8 +49,25 @@ section{
     justify-content: space-between;
 }
 .img1 img{
-    height: 390px;
+    height: 290px;
 }
 .img2 img{
-    height: 390px;
+    height: 290px;
+}
+
+.b-txt h1{
+    font-size: 40px;
+    line-height: 1;
+}
+.b-p{
+    padding-top: 60px;
+}
+.bott{
+    display: flex;
+    flex-flow:wrap row ;
+    justify-content: space-between;
+}
+.b-l{
+    width: 30%;
+    line-height: 3;
 }
